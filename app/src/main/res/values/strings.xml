@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">SpotSmile</string>
-    <string name="hello_world">Hello coca!</string>
+    <string name="hello_world">Hello coc!</string>
     <string name="action_settings">Settings</string>
 
 </resources>
