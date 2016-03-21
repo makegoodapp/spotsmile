@@ -2,21 +2,119 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical">
 
+    <com.makegoodapps.spotsmile.widget.RemovableAd
+        android:id="@+id/spotBoardRemovableAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
     <TextView
+        android:id="@+id/spotTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/spot_board_title"/>
+        android:visibility="gone"
+        android:padding="@dimen/dialog_msg_padding"/>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/spotStart"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/spot_button_start"
+            android:textColor="@color/link_text_material_light"/>
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/spotReview"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/spot_button_review"
+            android:textColor="@color/link_text_material_light"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/addImageContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/divider_margin"
+            android:layout_marginRight="@dimen/divider_margin"
+            android:layout_marginBottom="@dimen/divider_margin"
+            android:background="@color/wallet_holo_blue_light" />
+
+        <TextView
+            android:id="@+id/addImageText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/primary_text_default_material_light"
+            android:textSize="@dimen/abc_text_size_body_1_material"
+            android:text="@string/my_image_text_not_support" />
+
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:id="@+id/addImageButtonGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/addFromCamera"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/my_image_camera"
+                android:textColor="@color/link_text_material_light"/>
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/addFromGallery"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/my_image_gallery"
+                android:textColor="@color/link_text_material_light"/>
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/manageMyImages"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/my_image_manage"
+                android:textColor="@color/link_text_material_light"/>
+
+        </LinearLayout>
+
+        </LinearLayout>
 
     <GridView
         android:id="@+id/spotGrid"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:verticalSpacing="0dp"
         android:horizontalSpacing="0dp"
         android:stretchMode="columnWidth"
-        android:numColumns="2"/>
+        android:numColumns="3"
+        android:visibility="gone"/>
 
 </LinearLayout>

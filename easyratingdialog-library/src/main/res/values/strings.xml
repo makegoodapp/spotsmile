@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">easyratingdialog-library</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="erd_title">Rate this app</string>
+    <string name="erd_message">Hi, take a minute to rate this app and help support to improve more new features. ;)</string>
+    <string name="erd_no_thanks">No, thanks</string>
+    <string name="erd_remind_me_later">Later</string>
+    <string name="erd_rate_now">Rate now</string>
+</resources>

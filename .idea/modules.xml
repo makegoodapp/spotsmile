@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpotSmile.iml" filepath="$PROJECT_DIR$/SpotSmile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cropImage/cropImage.iml" filepath="$PROJECT_DIR$/cropImage/cropImage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easyratingdialog-library/easyratingdialog-library.iml" filepath="$PROJECT_DIR$/easyratingdialog-library/easyratingdialog-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hellocharts-library/hellocharts-library.iml" filepath="$PROJECT_DIR$/hellocharts-library/hellocharts-library.iml" />
+    </modules>
+  </component>
+</project>

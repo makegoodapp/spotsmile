@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">尋找笑臉</string>
+    <string name="spot_board_title">點擊笑臉. 你還有 : %s</string>
+    <string name="spot_board_result">讚喔! 你找到了 %s 個笑臉.</string>
+    <string name="spot_button_start">開始</string>
+    <string name="spot_button_restart">重試</string>
+    <string name="spot_button_review">紀錄</string>
+    <string name="my_image_text">新增微笑圖片</string>
+    <string name="my_image_text_not_support">抱歉, 您的裝置不支援新增功能</string>
+    <string name="my_image_camera">從相機新增</string>
+    <string name="my_image_gallery">從相簿新增</string>
+    <string name="my_image_manage">我的微笑圖片</string>
+    <string name="dialog_my_image_edit">編輯</string>
+    <string name="dialog_my_image_quit">離開</string>
+    <string name="dialog_my_image_remove">移除</string>
+
+    <string-array name="month_list">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+
+    </string-array>
+
+</resources>
