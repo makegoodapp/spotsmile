@@ -15,7 +15,6 @@
     <string name="dialog_my_image_edit">EDIT</string>
     <string name="dialog_my_image_quit">QUIT</string>
     <string name="dialog_my_image_remove">Remove</string>
-    <string name="ad_id" translatable="false">ca-app-pub-2401109721185515/8026014980</string>
 
     <string-array name="month_list">
         <item>Jan</item>
