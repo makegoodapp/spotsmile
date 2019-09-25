@@ -1,4 +1,4 @@
-# spotsmile
+# Spot Smile
 
 Hi all, this is the git repo of pot Smile, brighten your day.
 
